@@ -2,3 +2,40 @@
 	box-sizing:	border-box;
 }
 
+header.page-header	{
+	min-height:150px;
+  	display:flex;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
+  	padding: 20px 75px;
+  	justify-content: space-around;
+  	align-items: flex-start;
+}
+
+section{
+	background-color: gray;
+}
+
+section#Large-Hero {
+	/*image to be provided*/
+  	background-size: cover;
+  	min-height:1000px;
+  	display:block;
+  	flex-direction: column;
+  	padding-left:100px;
+}
+
+section#past-races {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-gap: 25px;
+	grid-template-areas:	"aside article";
+}
+
+article	{
+	grid-area:	article;
+}
+
+aside, #left-nav-pr {
+	grid-area: aside;
+}
