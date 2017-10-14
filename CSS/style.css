@@ -1,8 +1,83 @@
+/*FIRST REVISION CSS*/
+
 * {
 	box-sizing:	border-box;
 }
 
-header.page-header	{
+body {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows:	100px 600px	100px;
+	grid-gap: 25px;
+	grid-template-areas:	"header header"
+							"aside article"
+							"footer footer";
+}
+
+header, aside, article, footer {
+	background-color: gray;
+}
+
+header {
+	grid-area: header;
+	display: flex:
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+}
+
+nav {
+	flex: .25;
+	text-align: center;
+	padding: px;
+}
+
+aside {
+	grid-area: aside;
+	display: flex;
+	justify-content: space-between;
+}
+
+article {
+	grid-area: article;
+}
+
+footer {
+	grid-area: footer;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+/* past races */
+
+section#past-races {
+	display: grid;
+	width: 1000px;
+	grid-template-columns: 30% 70%;
+	grid-template-areas:		"header header"
+								"aside article"
+								"footer footer";
+	grid-gap: 10px;
+}
+
+.list-of-races ul	{
+	display: block;
+}
+
+#spotify-output {
+	display: block;
+}
+
+/*header.page-header	{
 	min-height:150px;
   	display:flex;
   	flex-direction: row;
@@ -10,14 +85,15 @@ header.page-header	{
   	padding: 20px 75px;
   	justify-content: space-around;
   	align-items: flex-start;
-}
+}*/
 
-section{
+/*section{
 	background-color: gray;
-}
+	grid-gap: 20px;
+}*/
 
-section#Large-Hero {
-	/*image to be provided*/
+/*section#Large-Hero {*/
+	/*image to be provided
   	background-size: cover;
   	min-height:1000px;
   	display:block;
@@ -25,17 +101,42 @@ section#Large-Hero {
   	padding-left:100px;
 }
 
-section#past-races {
+
+
+section#insta-gallery {
 	display: grid;
-	grid-template-columns: 20% 80%;
-	grid-gap: 25px;
-	grid-template-areas:	"aside article";
+	grid-template-columns: 70% 30%;
+	grid-template-rows: 500px auto;
+}
+
+#big-insta-box	{
+	grid-column: 1;
+}
+
+#insta-grid	{
+	grid-column: 2;
+}
+
+section#dem-links-doe {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 500px auto;
+	grid-template-areas: "links runlinkcarousel";
+}
+
+#links {
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+
+#runlink-carousel	{
+	grid-column-start: 3;
+	grid-column-end: 4;
 }
 
 article	{
 	grid-area:	article;
+	display: flex;
 }
 
-aside, #left-nav-pr {
-	grid-area: aside;
-}
+
