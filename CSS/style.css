@@ -7,8 +7,8 @@
 body {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	grid-template-rows:	100px 600px	100px;
-	grid-gap: 25px;
+	grid-template-rows:	100px auto 50px;
+	grid-gap: 10px;
 	grid-template-areas:	"header header"
 							"aside article"
 							"footer footer";
@@ -40,8 +40,6 @@ nav {
 
 aside {
 	grid-area: aside;
-	display: flex;
-	justify-content: space-between;
 }
 
 article {
@@ -57,11 +55,17 @@ a, a:visited {
 	color: black;
 }
 
+section	{
+	display: grid;
+	width: 100%;
+	justify-content: space-between;
+}
+
 /* past races */
 
 section#past-races {
 	display: grid;
-	width: 1000px;
+	width: 100%;
 	grid-template-columns: 30% 70%;
 	grid-template-areas:		"header header"
 								"aside article"
@@ -77,6 +81,37 @@ section#past-races {
 	display: block;
 }
 
+/*instagram page */
+
+section#insta-gallery {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 70% 30%;
+	grid-template-areas:		"header header"
+								"article aside"
+								"footer footer";
+	grid-gap: 10px;
+}
+
+#big-insta-box	{
+	display: block;
+}
+
+#insta-grid	{
+	display: block;
+}
+
+/*links page*/
+
+section#dem-links-doe {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-template-areas:		"header header"
+								"article aside"
+								"footer footer";
+	grid-gap: 10px;
+}
+
 /*header.page-header	{
 	min-height:150px;
   	display:flex;
@@ -85,11 +120,6 @@ section#past-races {
   	padding: 20px 75px;
   	justify-content: space-around;
   	align-items: flex-start;
-}*/
-
-/*section{
-	background-color: gray;
-	grid-gap: 20px;
 }*/
 
 /*section#Large-Hero {*/
@@ -102,20 +132,6 @@ section#past-races {
 }
 
 
-
-section#insta-gallery {
-	display: grid;
-	grid-template-columns: 70% 30%;
-	grid-template-rows: 500px auto;
-}
-
-#big-insta-box	{
-	grid-column: 1;
-}
-
-#insta-grid	{
-	grid-column: 2;
-}
 
 section#dem-links-doe {
 	display: grid;
