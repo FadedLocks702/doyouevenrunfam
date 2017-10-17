@@ -62,6 +62,24 @@ section	{
 	justify-content: space-between;
 }
 
+/*landing page*/
+#landing-hero {
+	background-image: url("../images/ballonapose05-medals.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 800px;
+	display: flex;
+	flex-direction: column;
+}
+
+/*training plan*/
+section#large-table	{
+	display: flex;
+	justify-content: center;
+
+}
+
+
 /* past races */
 
 section#past-races {
@@ -84,21 +102,14 @@ article#spotify-output {
 /*instagram page */
 
 section#insta-gallery {
-	display: grid;
-	grid-template-columns: 70% 30%;
-	grid-template-areas:		"header header"
-								"article aside"
-								"footer footer";
-	grid-gap: 10px;
+	display: block;
+	}
+
+div#big-insta-box	{
+	display: flex;
+	justify-content: center;
+
 }
-
-/*#big-insta-box	{
-	display: block;
-}*/
-
-/*#insta-grid	{
-	display: block;
-}*/
 
 /*links page*/
 
