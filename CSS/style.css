@@ -14,11 +14,12 @@ body {
 							"footer footer";
 }
 
-header, aside, article, footer {
+aside, article {
 	background-color: gray;
 }
 
 header {
+	background-color: black;
 	grid-area: header;
 	display: flex:
 	justify-content: space-between;
@@ -48,6 +49,12 @@ article {
 
 footer {
 	grid-area: footer;
+	text-align: center;
+	background: #333;
+	/*padding: 20px 0 1px 0;
+	margin: 10px 0 0 0;
+	font-size: .9em;*/
+	color: #ddd
 }
 
 img {
@@ -56,7 +63,7 @@ img {
 
 a, a:visited {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 section	{
@@ -123,6 +130,7 @@ div#big-insta-box	{
 	/*min-height: 800px;*/
 	display: flex;
 	flex-direction: column;
+	padding: 0 0 0 40px;
 }
 #links-li	{
 	display: block;
