@@ -6,12 +6,25 @@ $( document ).ready(function(){
 //1. DEFAULT: NO BLOG PAGES SHOWN IN THE FRAME
 //2. USER CLICKS LEFT NAV, and BLOG PAGE SLIDES OUT
 function showMalibu(){
-	$("#Malibu-Half").show()
-}
-$("#Malibu-2013").click(showMalibu);
+	$("#malibuHalf").fadeToggle();
+	}
+	$("#Malibu-2013").click(showMalibu);
+
+function showLA2014(){
+	$("#laMar-01").fadeToggle();
+	}
+	$("#LAMar-2014").click(showLA2014);
 
 //3. USER CLICKS ANOTHER LINK ON THE LEFT NAV, and CORRESPONDING BLOG PAGES
-//COMES OUT
+//COMES OUT.  
+
+//attemptinng an array
+// var races = ["#HollyH-2014","#SBar-2014","#BWorld-2015","#LAMar-2015","#OCHa-2015"];
+
+// 	for (var i=0; i<races.length; i++){
+// 		$('.list-of-races').val(races[i]).html(races[i]).appendTo('<article/>');
+// 		console.log($('.list-of-races').val(races[i]));
+// 	}
 
 //function showLA01
 //function showHollywood01

@@ -7,7 +7,7 @@
 body {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	grid-template-rows:	100px auto 50px;
+	grid-template-rows:	100px auto auto;
 	grid-gap: 10px;
 	grid-template-areas:	"header header"
 							"section section"
@@ -51,6 +51,7 @@ footer {
 	grid-area: footer;
 	text-align: center;
 	background: #333;
+	margin-top: -20px;
 	/*padding: 20px 0 1px 0;
 	margin: 10px 0 0 0;
 	font-size: .9em;*/
@@ -78,7 +79,7 @@ section	{
 	background-image: url("../images/ballonapose05-medals.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 800px;
+	min-height: 1000px;
 	display: flex;
 	flex-direction: column;
 }
@@ -105,10 +106,67 @@ section#past-races {
 .list-of-races ul	{
 	display: block;
 }
+/*RACE DETAILS*/
 
-section#Malibu-Half {
+section#malibuHalf {
 	display: none;
 }
+
+section#laMar-01 {
+	display: none;
+}
+section#hollyHf-01 {
+	display: none;
+}
+section#sBar-01 {
+	display: none;
+}
+
+section#bWorld-01 {
+	display: none;
+}
+section#laMar-02 {
+	display: none;
+}
+
+section#oC-01 {
+	display: none;
+}
+section#sFran-01 {
+	display: none;
+}
+section#smClass-01 {
+	display: none;
+}
+section#lbeach-01 {
+	display: none;
+}
+section#sac-01 {
+	display: none;
+}
+section#surfCity-01 {
+	display: none;
+}
+section#hollyHf-02 {
+	display: none;
+}
+
+section#smClass-02 {
+	display: none;
+}
+section#Passa-01 {
+	display: none;
+}
+
+section#laMar-03 {
+	display: none;
+}
+
+section#sFran-02 {
+	display: none;
+}
+
+/*RACE DETAILS END*/
 
 /*instagram page */
 
