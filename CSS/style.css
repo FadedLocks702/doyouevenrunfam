@@ -108,61 +108,61 @@ section#past-races {
 }
 /*RACE DETAILS*/
 
-section#malibuHalf {
+#malibuHalf {
 	display: none;
 }
 
-section#laMar-01 {
+#laMar-01 {
 	display: none;
 }
-section#hollyHf-01 {
+#hollyHf-01 {
 	display: none;
 }
-section#sBar-01 {
-	display: none;
-}
-
-section#bWorld-01 {
-	display: none;
-}
-section#laMar-02 {
+#sBar-01 {
 	display: none;
 }
 
-section#oC-01 {
+#bWorld-01 {
 	display: none;
 }
-section#sFran-01 {
-	display: none;
-}
-section#smClass-01 {
-	display: none;
-}
-section#lbeach-01 {
-	display: none;
-}
-section#sac-01 {
-	display: none;
-}
-section#surfCity-01 {
-	display: none;
-}
-section#hollyHf-02 {
+#laMar-02 {
 	display: none;
 }
 
-section#smClass-02 {
+#oC-01 {
 	display: none;
 }
-section#Passa-01 {
+#sFran-01 {
+	display: none;
+}
+#smClass-01 {
+	display: none;
+}
+#lbeach-01 {
+	display: none;
+}
+#sac-01 {
+	display: none;
+}
+#surfCity-01 {
+	display: none;
+}
+#hollyHf-02 {
 	display: none;
 }
 
-section#laMar-03 {
+#smClass-02 {
+	display: none;
+}
+#Passa-01 {
 	display: none;
 }
 
-section#sFran-02 {
+#laMar-03 {
+	display: none;
+}
+
+#sFran-02 {
 	display: none;
 }
 
@@ -170,13 +170,15 @@ section#sFran-02 {
 
 /*instagram page */
 
-section#insta-gallery {
+/*section#insta-gallery {
 	display: block;
-	}
+	}*/
 
-div#big-insta-box	{
-	display: flex;
-	justify-content: center;
+#instafeed	{
+	width: 100%;
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
 
 }
 

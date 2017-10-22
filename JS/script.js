@@ -1,6 +1,12 @@
+$( document ).ready(function(){
+
+//instagram profile//
+
+
+
 //blog
 //past-races page
-$( document ).ready(function(){
+
 
 
 //1. DEFAULT: NO BLOG PAGES SHOWN IN THE FRAME
@@ -8,12 +14,89 @@ $( document ).ready(function(){
 function showMalibu(){
 	$("#malibuHalf").fadeToggle();
 	}
-	$("#Malibu-2013").click(showMalibu);
+	$(".Malibu-2013").click(showMalibu);
 
 function showLA2014(){
 	$("#laMar-01").fadeToggle();
 	}
-	$("#LAMar-2014").click(showLA2014);
+	$(".LAMar-2014").click(showLA2014);
+
+function showHHalf01(){
+	$("#hollyHf-01").fadeToggle();
+	}
+	$(".HollyH-2014").click(showHHalf01);
+
+function santaB01(){
+	$("#sBar-01").fadeToggle();
+	}
+	$(".SBar-2014").click(santaB01);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+
+
+//Click handler
+
+
+//Show function
 
 //3. USER CLICKS ANOTHER LINK ON THE LEFT NAV, and CORRESPONDING BLOG PAGES
 //COMES OUT.  
