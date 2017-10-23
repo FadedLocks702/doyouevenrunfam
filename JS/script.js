@@ -9,27 +9,38 @@ $( document ).ready(function(){
 
 
 
-//1. DEFAULT: NO BLOG PAGES SHOWN IN THE FRAME
+//1. DEFAULT: NO BLOG PAGES SHOWN IN THE FRAME 
+//		NEW DESIGN: all blog pages are shown
 //2. USER CLICKS LEFT NAV, and BLOG PAGE SLIDES OUT
-function showMalibu(){
-	$("#malibuHalf").fadeToggle();
-	}
-	$(".Malibu-2013").click(showMalibu);
+//		NEW DESIGN - LEFT NAV SCROLLS TO ANCHOR
+// function showMalibu(){
+// 	$("#malibuHalf").fadeToggle();
+// 	}
+// 	$(".Malibu-2013").click(showMalibu);
+function scrollToAnchor(aid){
+	var aTag = $("a[name='" + aid + "']");
+	$('html,body').animate({scrollTop: aTag.offset().top});
+}
 
-function showLA2014(){
-	$("#laMar-01").fadeToggle();
-	}
-	$(".LAMar-2014").click(showLA2014);
+$(".HollyH-2014").click(function(){
+	scrollToAnchor('#hollyHf-01');
+});
 
-function showHHalf01(){
-	$("#hollyHf-01").fadeToggle();
-	}
-	$(".HollyH-2014").click(showHHalf01);
 
-function santaB01(){
-	$("#sBar-01").fadeToggle();
-	}
-	$(".SBar-2014").click(santaB01);
+// function showLA2014(){
+// 	$("#laMar-01").fadeToggle();
+// 	}
+// 	$(".LAMar-2014").click(showLA2014);
+
+// function showHHalf01(){
+// 	$("#hollyHf-01").fadeToggle();
+// 	}
+// 	$(".HollyH-2014").click(showHHalf01);
+
+// function santaB01(){
+// 	$("#sBar-01").fadeToggle();
+// 	}
+// 	$(".SBar-2014").click(santaB01);
 
 
 //QUESTIONS:
@@ -52,8 +63,17 @@ function santaB01(){
 // 	$(".BWorld-2015",".LA-Mar-2015").click(raceDetail);
 // console.log(raceDetail);
 
+// function ShowBWorld(){
+// 	$('#bWorld-01').fadeToggle();
+// }
+// function ShowLAMarathon02(){
+// 	$('#laMar-02').fadeToggle();
+// }
 
 
+
+// $(".BWorld-2015").click(ShowBWorld);
+// $(".LAMar-2015").click(ShowLAMarathon02);
 
 //FALL BACK ON CODE BELOW IF IT DOESNT WORK
 // function showLA2014(){

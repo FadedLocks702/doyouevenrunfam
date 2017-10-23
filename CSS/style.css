@@ -109,76 +109,78 @@ section#past-races {
 /*RACE DETAILS*/
 
 #malibuHalf {
-	display: none;
+
 }
 
 #laMar-01 {
-	display: none;
+	
 }
 #hollyHf-01 {
-	display: none;
+	
 }
 #sBar-01 {
-	display: none;
+	
 }
 
 #bWorld-01 {
-	display: none;
+	
 }
 #laMar-02 {
-	display: none;
+	
 }
 
 #oC-01 {
-	display: none;
+	
 }
 #sFran-01 {
-	display: none;
+	
 }
 #smClass-01 {
-	display: none;
+	
 }
 #lbeach-01 {
-	display: none;
+	
 }
 #sac-01 {
-	display: none;
+	
 }
 #surfCity-01 {
-	display: none;
+	
 }
 #hollyHf-02 {
-	display: none;
+	
 }
 
 #smClass-02 {
-	display: none;
+	
 }
 #Passa-01 {
-	display: none;
+	
 }
 
 #laMar-03 {
-	display: none;
+	
 }
 
 #sFran-02 {
-	display: none;
+	
 }
 
 /*RACE DETAILS END*/
 
 /*instagram page */
 
-/*section#insta-gallery {
-	display: block;
-	}*/
+section#insta-gallery {
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-evenly;
+	}
 
 #instafeed	{
-	width: 100%;
-  	display: flex;
+	width: 75%;
+  	/*display: flex;
   	flex-wrap: wrap;
-  	justify-content: space-around;
+  	justify-content: space-evenly;*/
 
 }
 
