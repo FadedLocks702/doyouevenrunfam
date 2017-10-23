@@ -31,6 +31,31 @@ function santaB01(){
 	}
 	$(".SBar-2014").click(santaB01);
 
+
+//QUESTIONS:
+//1. Is it possible to put all links under ".list-of-races" 
+//into one function?
+//2. If so is it also possible for those links' commands to open up
+//their own IDs?
+
+//sample:
+
+// function showDetail(){
+// 	$('specificSections').fadeToggle();
+// 	}
+// 	$(".list-of-races").click('specificIDs')
+
+// 1 possible solution
+// function raceDetail(){
+// 	$("#bWorld-01","#laMar02").fadeToggle();
+// 	}
+// 	$(".BWorld-2015",".LA-Mar-2015").click(raceDetail);
+// console.log(raceDetail);
+
+
+
+
+//FALL BACK ON CODE BELOW IF IT DOESNT WORK
 // function showLA2014(){
 // 	$("#laMar-01").fadeToggle();
 // 	}
