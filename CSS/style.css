@@ -39,8 +39,13 @@ nav {
 	padding: px;
 }
 
+aside,
+#race-details { padding: 20px 0;}
+
 aside {
 	grid-area: aside;
+	padding-right: 8px;
+	padding-left: 8px;
 }
 
 article {
@@ -105,10 +110,21 @@ section#past-races {
 
 .list-of-races ul	{
 	display: block;
+	margin-bottom: 12px;
+	cursor: pointer;
+}
+
+#race-details section,
+#race-details .spotify {
+	display: none;
+}
+
+#race-details section.active {
+	display: block;
 }
 /*RACE DETAILS*/
 
-#malibuHalf {
+/*#malibuHalf {
 
 }
 
@@ -164,7 +180,7 @@ section#past-races {
 
 #sFran-02 {
 	
-}
+}*/
 
 /*RACE DETAILS END*/
 
