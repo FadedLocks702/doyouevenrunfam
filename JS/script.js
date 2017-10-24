@@ -7,8 +7,6 @@ $( document ).ready(function(){
 //blog
 //past-races page
 
-
-
 //1. DEFAULT: NO BLOG PAGES SHOWN IN THE FRAME 
 //		NEW DESIGN: all blog pages are shown
 //2. USER CLICKS LEFT NAV, and BLOG PAGE SLIDES OUT

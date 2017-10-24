@@ -187,8 +187,7 @@ section#past-races {
 /*instagram page */
 
 section#insta-gallery {
-	display: flex;
-  	flex-wrap: wrap;
+	display: inline-flex;
   	justify-content: space-evenly;
 	}
 
