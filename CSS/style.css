@@ -64,7 +64,7 @@ footer {
 }
 
 img {
-	width: 40%
+	width: 100%
 }
 
 a, a:visited {
@@ -186,17 +186,15 @@ section#past-races {
 
 /*instagram page */
 
-section#insta-gallery {
-	display: inline-flex;
-  	justify-content: space-evenly;
-	}
+body#grampage{
+	display: block;
+}
 
 #instafeed	{
 	width: 75%;
-  	/*display: flex;
-  	flex-wrap: wrap;
-  	justify-content: space-evenly;*/
-
+	display: flex;
+	flex-flow: row wrap;
+	
 }
 
 /*links page*/

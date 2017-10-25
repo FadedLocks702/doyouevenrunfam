@@ -31,14 +31,6 @@ function santaB01(){
 	}
 	$(".SBar-2014").click(santaB01);
 
-
-
-//QUESTIONS:
-//1. Is it possible to put all links under ".list-of-races" 
-//into one function?
-//2. If so is it also possible for those links' commands to open up
-//their own IDs?
-
 //sample:
 
 // function showDetail(){
@@ -60,10 +52,6 @@ function santaB01(){
 // 	$('#laMar-02').fadeToggle();
 // }
 
-
-
-// $(".BWorld-2015").click(ShowBWorld);
-// $(".LAMar-2015").click(ShowLAMarathon02);
 
 //FALL BACK ON CODE BELOW IF IT DOESNT WORK
 function showBetter01(){
@@ -138,18 +126,3 @@ function showSF02(){
 // 		$('.list-of-races').val(races[i]).html(races[i]).appendTo('<article/>');
 // 		console.log($('.list-of-races').val(races[i]));
 // 	}
-
-//function showLA01
-//function showHollywood01
-//function showSantaB01
-//function showBWhalf01
-//function showLA02
-//function showOCHalf01
-//function showSFFull01
-//function showSMClassic2015
-//function showLBFull01
-//function showCIM01
-//function showSurfCity01
-//function showHollywood02
-//function showSMClassic2016
-//function showPasadena01
