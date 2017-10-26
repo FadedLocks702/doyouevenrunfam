@@ -1,4 +1,4 @@
-$(function()	{
+$(function(){
 
 
 
@@ -16,8 +16,6 @@ $(function()	{
 		// 	} else {
 		// 		$(this).removeClass('active');
 		// 	}
-
-
 //optimized
 
 	$('.list-of-races').on('click','a', function(e)	{

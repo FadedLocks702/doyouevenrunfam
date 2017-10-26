@@ -7,7 +7,7 @@
 body {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	grid-template-rows:	100px auto auto;
+	grid-template-rows:	135px auto auto;
 	grid-gap: 10px;
 	grid-template-areas:	"header header"
 							"section section"
@@ -63,10 +63,6 @@ footer {
 	color: #ddd
 }
 
-/*img {
-	width: 40%
-}*/
-
 a, a:visited {
 	text-decoration: none;
 	color: white;
@@ -79,15 +75,53 @@ section	{
 	justify-content: space-between;
 }
 
+.header-wrapper {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.headerlogo {
+	font-size: 40px;
+	font-weight: 900;
+	padding: 0px 50px;
+}
+
+.socialmedia {
+	padding: 50px;
+}
+
+
+
 /*landing page*/
 #landing-hero {
-	background-image: url("../images/ballonapose05-medals.JPG");
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 1000px;
+	background-color: gray;
+	min-height: 750px;
 	display: flex;
 	flex-direction: column;
 }
+
+#hero-image {
+	background-color: rgba(255, 255, 255, 0.9);
+	background-image: url("../images/ballonapose05-medals.JPG");
+	background-size: cover;
+	width: 75%;
+	min-height: 500px;
+	height: auto;
+	position: relative;
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+.blurb {
+	font-size: 0.9em;
+    position: relative;
+    width: 255px;
+    top: 35px;
+    left: 65px;
+    padding-top: 5px;
+}
+	
 
 /*training plan*/
 section#large-table	{
