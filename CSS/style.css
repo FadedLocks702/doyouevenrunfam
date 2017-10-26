@@ -40,7 +40,7 @@ nav {
 }
 
 aside,
-#race-details { padding: 20px 0;}
+#main-content { padding: 20px 0;}
 
 aside {
 	grid-area: aside;
@@ -56,16 +56,16 @@ footer {
 	grid-area: footer;
 	text-align: center;
 	background: #333;
-	margin-top: -20px;
+/*	margin-top: -20px;*/
 	/*padding: 20px 0 1px 0;
 	margin: 10px 0 0 0;
 	font-size: .9em;*/
 	color: #ddd
 }
 
-img {
-	width: 100%
-}
+/*img {
+	width: 40%
+}*/
 
 a, a:visited {
 	text-decoration: none;
@@ -108,20 +108,21 @@ section#past-races {
 	grid-gap: 5px;
 }
 
-.list-of-races ul	{
+.list-of-races a {
 	display: block;
 	margin-bottom: 12px;
 	cursor: pointer;
 }
 
-#race-details section,
-#race-details .spotify {
-	display: none;
+#main-content section,
+#main-content .spotify { display: none; }
+
+#main-content section.active { display: block; }
+
+.race-img {
+	width: 300px;
 }
 
-#race-details section.active {
-	display: block;
-}
 /*RACE DETAILS*/
 
 /*#malibuHalf {
