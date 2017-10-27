@@ -218,7 +218,10 @@ section#past-races {
 	width: 300px;
 }
 
-
+.image-table {
+	display: inline-grid;
+	grid-template-columns: auto auto;	
+}
 
 /*instagram page */
 
