@@ -35,13 +35,13 @@ article {
 header {
 	background-color: black;
 	grid-area: header;
-	display: flex:
-	justify-content: space-between;
 	align-items: center;
 }
 
 .home header {
 	background-color: transparent;
+	display: flex:
+	justify-content: space-between;
 }
 
 .home header a {
