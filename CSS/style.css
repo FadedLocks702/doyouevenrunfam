@@ -14,7 +14,11 @@ body {
 							"footer footer";
 }
 
-aside, article {
+aside {
+	background-color: black	
+}
+
+article {
 	background-color: gray;
 }
 
@@ -91,12 +95,10 @@ section	{
 	padding: 50px;
 }
 
-
-
 /*landing page*/
 #landing-hero {
 	background-color: gray;
-	min-height: 750px;
+	min-height: auto;
 	display: flex;
 	flex-direction: column;
 }
@@ -106,7 +108,7 @@ section	{
 	background-image: url("../images/ballonapose05-medals.JPG");
 	background-size: cover;
 	width: 75%;
-	min-height: 500px;
+	min-height: 550px;
 	height: auto;
 	position: relative;
 	margin-right: auto; 
@@ -115,11 +117,15 @@ section	{
 
 .blurb {
 	font-size: 0.9em;
+	color: white;
     position: relative;
-    width: 255px;
+    width: 350px;
     top: 35px;
     left: 65px;
     padding-top: 5px;
+    background-color: rgba(0,0,0,0.50);
+    border: 2px solid #000;
+    padding: 20px;
 }
 	
 
@@ -146,6 +152,7 @@ section#past-races {
 	display: block;
 	margin-bottom: 12px;
 	cursor: pointer;
+	font-family: 'Sedgwick Ave Display', cursive;
 }
 
 #main-content section,
@@ -157,67 +164,7 @@ section#past-races {
 	width: 300px;
 }
 
-/*RACE DETAILS*/
 
-/*#malibuHalf {
-
-}
-
-#laMar-01 {
-	
-}
-#hollyHf-01 {
-	
-}
-#sBar-01 {
-	
-}
-
-#bWorld-01 {
-	
-}
-#laMar-02 {
-	
-}
-
-#oC-01 {
-	
-}
-#sFran-01 {
-	
-}
-#smClass-01 {
-	
-}
-#lbeach-01 {
-	
-}
-#sac-01 {
-	
-}
-#surfCity-01 {
-	
-}
-#hollyHf-02 {
-	
-}
-
-#smClass-02 {
-	
-}
-#Passa-01 {
-	
-}
-
-#laMar-03 {
-	
-}
-
-#sFran-02 {
-	
-}*/
-
-/*RACE DETAILS END*/
 
 /*instagram page */
 
@@ -237,7 +184,7 @@ body#grampage{
 	/*background-image: url("../images/ballonapose05-medals.JPG");*/
 /*	background-repeat: no-repeat;
 	background-size: cover;*/
-	/*min-height: 800px;*/
+	min-height: auto;
 	display: flex;
 	flex-direction: column;
 	padding: 0 0 0 40px;
