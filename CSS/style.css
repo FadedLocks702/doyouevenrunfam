@@ -45,7 +45,7 @@ header {
 }
 
 .home header a {
-	color: black;
+	color: white;
 }
 
 .home footer {
@@ -71,6 +71,11 @@ ul {
 
 .divider {
 	padding: 05px;
+}
+
+.home li {
+		background-color: #B22222;
+		padding: 2px;
 }
 
 nav {
@@ -132,33 +137,13 @@ section	{
 	padding: 50px;
 }
 
-/*landing page*/
-/*#landing-hero {
-	background-color: gray;
-	min-height: auto;
-	display: flex;
-	flex-direction: column;
-}
-
-#hero-image {
-	background-color: rgba(255, 255, 255, 0.9);
-	background-image: url("../images/ballonapose05-medals.JPG");
-	background-size: cover;
-	width: 75%;
-	min-height: 550px;
-	height: auto;
-	position: relative;
-	margin-right: auto; 
-	margin-left: auto;
-}*/
-
 #landing-hero {
 	background-color: gray;
 	min-height: auto;
 	display: flex;
 	flex-direction: column;
 	 /* The image used */
-    background-image: url("../images/ballonapose04-medals.JPG");
+    background-image: url("../images/ballonapose04-medalsoptimized.jpg");
 
     /* Full height */
     height: 100%; 
@@ -179,7 +164,7 @@ section	{
     top: 35px;
     left: 65px;
     padding-top: 5px;
-    background-color: rgba(0,0,0,0.50);
+    background-color: rgb(178,34,34);
     border: 2px solid #000;
     padding: 20px;
 }
@@ -234,10 +219,10 @@ th, td {
     padding: 8px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: #FFF}
 
 th {
-    background-color: #4CAF50;
+    background-color: #B22222;
     color: white;
 }
 
