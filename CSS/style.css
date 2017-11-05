@@ -29,7 +29,10 @@ aside {
 }
 
 article {
-	background-color: gray;
+	/*background-color: gray;*/
+	grid area: section;
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -78,7 +81,7 @@ ul {
 }
 
 .home li {
-		background-color: #B22222;
+		background-color: black;
 		padding: 2px;
 }
 
@@ -120,7 +123,7 @@ a, a:visited {
 section	{
 	display: grid;
 	width: 100%;
-	grid-area:section;
+	grid-area: section;
 	justify-content: space-between;
 }
 
@@ -168,7 +171,7 @@ section	{
     top: 35px;
     left: 65px;
     padding-top: 5px;
-    background-color: rgb(178,34,34);
+    background-color: black;
     border: 2px solid #000;
     padding: 20px;
 }
@@ -184,6 +187,7 @@ section#large-table	{
 
 /* past races */
 section#past-races {
+	background-image: url("../images/ballonapose06-smileoptimized.jpg");
 	display: grid;
 	grid-template-columns: 20% 80%;
 	grid-template-areas:		"header header"
