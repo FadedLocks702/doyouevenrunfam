@@ -111,7 +111,7 @@ article {
 footer {
 	grid-area: footer;
 	text-align: center;
-	background: #333;
+	background: black;
 	color: #ddd
 }
 
@@ -172,7 +172,6 @@ section	{
     left: 65px;
     padding-top: 5px;
     background-color: black;
-    border: 2px solid #000;
     padding: 20px;
 }
 	
@@ -261,14 +260,74 @@ body#grampage{
 }
 /*links page*/
 .simple-layout{
-	/*background-image: url("../images/ballonapose05-medals.JPG");*/
-/*	background-repeat: no-repeat;
-	background-size: cover;*/
 	min-height: auto;
 	display: flex;
 	flex-direction: column;
 	padding: 0 0 0 40px;
 }
+
+section.simple-layout {
+	background-image: url(../images/ballonapose01-optimizeddark.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
 #links-li	{
 	display: block;
+}
+
+/* CHEESY EFFECTS FOR HOMEPAGE! */
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }

@@ -109,6 +109,10 @@ $(function(){
 // 	}
 // 	$(".SFHaMar-2017").click(showSF02);
 
+//pseudo code for an animation sequence
+
+
+
 	});
 
 
