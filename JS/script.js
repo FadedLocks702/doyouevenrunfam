@@ -25,6 +25,9 @@ $(function(){
 
 });
 
+$(document).ready(function() {
+	$("th").css("background-color", "hsla(" + Math.floor(Math.random() * (360)) + ", 75%, 58%, 1)");
+});
 
 //2. USER CLICKS LEFT NAV, and BLOG PAGE SLIDES OUT
 
