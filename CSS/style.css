@@ -188,6 +188,7 @@ section#large-table	{
 /* past races */
 section#past-races {
 	background-image: url("../images/ballonapose06-smileoptimized.jpg");
+	background-repeat: no-repeat;
 	display: grid;
 	grid-template-columns: 20% 80%;
 	grid-template-areas:		"header header"
