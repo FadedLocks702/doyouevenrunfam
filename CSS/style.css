@@ -35,9 +35,13 @@ article {
 header {
 	background-color: black;
 	grid-area: header;
-	display: flex:
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+header ul {
+	padding: 20px;
 }
 
 .home header {
@@ -78,10 +82,14 @@ ul {
 		padding: 2px;
 }
 
+li.child {
+	padding: 5px;
+}
+
 nav {
 	flex: .25;
 	text-align: center;
-	padding: 0px;
+	padding: 15px;
 }
 
 aside,
@@ -101,10 +109,6 @@ footer {
 	grid-area: footer;
 	text-align: center;
 	background: #333;
-/*	margin-top: -20px;*/
-	/*padding: 20px 0 1px 0;
-	margin: 10px 0 0 0;
-	font-size: .9em;*/
 	color: #ddd
 }
 
@@ -233,12 +237,23 @@ body#grampage{
 }
 
 #instafeed	{
-	width: 75%;
+	width: auto;
 	display: flex;
+	grid-area: section;
 	flex-flow: row wrap;
 	
 }
 
+.insta-wrap {
+	display: flex;
+	max-width: 20%;
+	cursor: pointer;
+}
+
+.insta-wrap img {
+	max-width: 100%;
+
+}
 /*links page*/
 .simple-layout{
 	/*background-image: url("../images/ballonapose05-medals.JPG");*/

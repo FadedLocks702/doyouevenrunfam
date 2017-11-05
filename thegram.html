@@ -20,11 +20,12 @@
 				<!-- Possibly replace with images for list links-->
 				<nav>
 					<ul>
-						<li><a href="doyouevenrunfam.html">Home</a></li>
-						<li><a href="past-races.html">Past Races</a></li>
-						<li><a href="trainingplan.html">Training Plan</a></li>
-						<li><a href="thegram.html">Gallery</a></li>
-						<li><a href="resource.html">Resources</a></li>
+						<li class='child'><a href="doyouevenrunfam.html">Home</a></li>
+						<li class='child'><a href="past-races.html">Past Races</a></li>
+						<li class='child'><a href="trainingplan.html">Training Plan</a></li>
+						<li class='child'><a href="thegram.html">Gallery</a></li>
+				
+						<li class='child'><a href="resource.html">Resources</a></li>
 					</ul>
 				</nav>
 		</header>
@@ -38,7 +39,7 @@
     				clientId: '193c9e6a500d47bab328e415cf3f3c45',
     				accessToken: '4060789445.193c9e6.544222e737384e089897a1cbe30158dc',
     					resolution: 'standard_resolution',
-    				template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /><span>{{likes}}{{comments}}</span></a>',
+    				template: '<div class="insta-wrap"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /><span>{{likes}}{{comments}}</span></a></div>',
     				sortBy: 'most-recent',
     				limit: 32,
     				links: false
