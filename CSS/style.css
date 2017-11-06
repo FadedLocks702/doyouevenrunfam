@@ -161,7 +161,14 @@ section	{
     background-size: cover;
 }
 
+.section-wrapper {
+	display: flex;
 
+}
+
+input {
+	width: 25%;
+}
 
 .blurb {
 	font-size: 0.9em;
@@ -174,7 +181,7 @@ section	{
     background-color: black;
     padding: 20px;
 }
-	
+
 
 /*training plan*/
 section#large-table	{
@@ -276,6 +283,46 @@ section.simple-layout {
 #links-li	{
 	display: block;
 }
+
+/*NEW FORM PAGE FOR ASSIGNMENT 8*/
+.run-form {
+	min-height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+section.run-form {
+	margin: 25px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+}
+
+form div {
+	padding: 10px 0;
+}
+
+.checkbox-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.checkbox-inline {
+	padding-right: 20px;
+}
+
+.radio-buttons {
+	display: flex;
+	flex-direction: row;
+}
+
+label {
+	padding-right: 20px;
+}
+
 
 /* CHEESY EFFECTS FOR HOMEPAGE! */
 .fade-in {
