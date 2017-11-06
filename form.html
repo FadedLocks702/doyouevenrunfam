@@ -48,10 +48,9 @@
     				<label for="email">Email</label><br>
     				<input id="email" name="email" type="text" placeholder="yourname@email.com"/>
     				</div>
-    				<p>Why would you be interested in running?</p>
+    				<h4>Why would you be interested in running?</h4>
 
-    				<div class="checkbox-container">
-    					
+            <div class='checkbox-container'>
     					<label class="checkbox-inline">
     						<input type="checkbox" value="weightLoss">Losing Weight
     					</label>
@@ -62,25 +61,17 @@
     						<input type="checkbox" value="peerPressure">Peer Pressure
     					</label>
     					<label class="checkbox-inline">
-    						<input type="checkbox" value="socialMediaFlex">Up my social media status
+    						<input type="checkbox" value="socialMediaFlex">Thirsty for likes
     					</label>
     				</div>
 
-    				<p>Have you ever run more than 5 miles?</p>
-    				<div class="radio-buttons">
-    					<div class="radio">
-  							<label><input type="radio" name="yes">Yes</label>
-						</div>
-						<div class="radio">
-  						<label><input type="radio" name="no">No</label>
-						</div>
-						<div class="radio">
-  						<label><input type="radio" name="dafuq">I don't even walk that much!</label>
-						</div>
-    				</div>
+    				<h4>Have you ever run more than 5 miles?</h4>
+  					<label><input type="radio" name="yes" value="yes">Yes</label>
+		        <label><input type="radio" name="no" value="no">No</label>
+  					<label><input type="radio" name="dafuq" value="dafuq">I don't even walk that much!</label>
 
-    				<p>What kind of race are you looking to train for?</p>
-    				  <div>
+
+    				<h4>What kind of race are you looking to train for?</h4>
     					<select>
       					<option selected disabled>What kind of race?</option>
       					<option value="5k">5k (3.1 miles)</option>
@@ -90,11 +81,11 @@
       					<option value="multiRace">Any combination above</option>
       					<option value="ultraMarathon">Ultra Marathon (You're f'n crazier than me)</option>
     					</select>
- 					 </div>
 
-    				 <div>
+    				 <div id='submit-button'>
     				<input type="submit">
   					</div>
+
   			</form>
 		</section>
 
